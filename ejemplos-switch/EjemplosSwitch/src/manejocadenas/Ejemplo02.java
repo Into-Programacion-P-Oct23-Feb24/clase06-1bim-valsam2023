@@ -15,6 +15,9 @@ public class Ejemplo02 {
         String pais;
         
         pais = "Ecuador";
+        /* el metodo charArt en este caso sirve para que relacione los numeros\
+        con las letras, por ejemplo la el cero es la primera letra del pais que 
+        seria la E*/
         char letra = pais.charAt(0);
         System.out.printf("%s\n", letra);
         
