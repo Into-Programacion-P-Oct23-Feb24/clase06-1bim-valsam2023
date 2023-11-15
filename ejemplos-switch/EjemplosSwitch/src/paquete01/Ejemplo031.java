@@ -31,7 +31,7 @@ public class Ejemplo031 {
         entrada.nextLine();
         System.out.println("Ingrese su universidad");
         String universidad = entrada.nextLine(); 
-        
+        nombre = nombre.toLowerCase();
         char valor = nombre.charAt(0); 
                                        
         switch(valor){
